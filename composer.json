@@ -1,0 +1,13 @@
+{
+    "name": "logicnet/crm",
+    "description": "A modular, multi-tenant CRM built in PHP",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

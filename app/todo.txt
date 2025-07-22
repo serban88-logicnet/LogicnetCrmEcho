@@ -1,0 +1,6 @@
+- Regenerate the remember_token on password change
+- Support token expiration or a separate table (for high-security environments)
+- Include a "Log me out everywhere" feature by revoking all tokens (optional)
+- Rate limiting or lockout after X failed logins
+- Admin dashboard for login attempt logs
+- Email notifications on suspicious activity

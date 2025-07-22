@@ -1,0 +1,17 @@
+# Dependencies managed by Composer
+/vendor/
+
+# Configuration file with sensitive credentials
+/config/config.php
+
+# Log files
+/logs/
+
+# Composer executable
+composer.phar
+
+# Common system and IDE files
+.DS_Store
+.idea/
+.vscode/
+*.log

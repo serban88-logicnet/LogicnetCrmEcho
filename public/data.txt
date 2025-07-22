@@ -1,0 +1,4273 @@
+Array
+(
+    [firma] => Array
+        (
+            [j] => J2003012863403
+            [cui] => 15767843
+            [nume_recom] => LOGICNET SOLUTION SRL
+            [nume_sursa] => RECOM
+            [nume_mfinante] => LOGICNET SOLUTION SRL
+            [capital_social] => 1600
+            [nume_fara_forma_org] => LOGICNET SOLUTION
+            [este_cod_tva_intracomunitar] => 
+        )
+
+    [adresa] => Array
+        (
+            [anaf] => Array
+                (
+                    [bloc] => 
+                    [etaj] => 1
+                    [tara] => România
+                    [judet] => București
+                    [numar] => 5
+                    [scara] => 
+                    [sector] => 1
+                    [strada] => G-Ral Ernest Brosteanu
+                    [formatat] => Strada G-Ral Ernest Brosteanu, Nr. 5, Et. 1, Ap. 3, București, Sector 1
+                    [apartament] => 3
+                    [cod_postal] => 10527
+                    [localitate] => București
+                    [tip_strada] => Strada
+                    [neprelucrat] => MUNICIPIUL BUCUREȘTI, SECTOR 1, STR. G-RAL ERNEST BROSTEANU, NR.5, ET.1, AP.3
+                    [sub_localitate] => 
+                )
+
+            [sediu_social] => Array
+                (
+                    [bloc] => 
+                    [etaj] => 1
+                    [tara] => România
+                    [judet] => București
+                    [numar] => 5
+                    [scara] => 
+                    [sursa] => RECOM
+                    [sector] => 1
+                    [strada] => G-Ral Ernest Brosteanu
+                    [expirare] => Array
+                        (
+                            [este_expirat] => 
+                            [data_expirare] => 
+                            [data_actualizare] => 2025-04-10
+                        )
+
+                    [formatat] => Strada G-Ral Ernest Brosteanu, Nr. 5, Et. 1, Ap. 3, București, Sector 1
+                    [apartament] => 3
+                    [cod_postal] => 10527
+                    [cod_siruta] => 179132
+                    [localitate] => București
+                    [tip_strada] => Strada
+                    [neprelucrat] => 
+                    [neprelucrat_mf] => Str. G-RAL ERNEST BROSTEANU 5 Et:1 Ap:3 - București sect 1
+                    [sub_localitate] => 
+                    [neprelucrat_recom] => 
+                )
+
+        )
+
+    [statut_tva] => Array
+        (
+            [curent] => Array
+                (
+                    [cod] => 2
+                    [label] => Plătitor TVA
+                    [data_interogare] => 2025-05-07
+                    [data_anulare_tva] => 
+                    [data_inceput_tva] => 2003-09-25
+                    [data_operare_anulare_tva] => 
+                )
+
+            [istoric] => Array
+                (
+                    [0] => Array
+                        (
+                            [cod] => 2
+                            [label] => Plătitor TVA
+                            [data_interogare] => 2025-05-07
+                            [data_anulare_tva] => 
+                            [data_inceput_tva] => 2003-09-25
+                            [data_operare_anulare_tva] => 
+                        )
+
+                )
+
+        )
+
+    [bilanturi_mfinante_scurte] => Array
+        (
+            [moneda] => RON
+            [an_2008] => Array
+                (
+                    [an] => 2008
+                    [id] => 437463
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 78508
+                            [tendinta] => 
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1131226
+                            [tendinta] => 
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 52563
+                            [tendinta] => 
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 1652
+                            [tendinta] => 
+                        )
+
+                    [tip_bilant] => BILANT SCURT CONFORM ORDINULUI 1752/2005
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 5408
+                            [tendinta] => 
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 32046
+                            [tendinta] => 
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => 
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 503389
+                            [tendinta] => 
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 180948
+                            [tendinta] => 
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 497981
+                            [tendinta] => 
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 982324
+                            [tendinta] => 
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 2
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 1652
+                            [tendinta] => 
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 445078
+                            [tendinta] => 
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 5408
+                            [tendinta] => 
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 49877
+                            [tendinta] => 
+                        )
+
+                )
+
+            [an_2009] => Array
+                (
+                    [an] => 2009
+                    [id] => 437464
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 39150
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -50.132470576247
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1181713
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.4630339118797
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [tip_bilant] => BILANT SCURT CONFORM ORDINULUI 1752/2005
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -217670
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -779.24233913749
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 249959
+                            [tendinta] => 
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 244226
+                            [tendinta] => 
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 370742
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -26.350794316125
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 78544
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -56.593054358158
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 614968
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 23.492261752958
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 885499
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -9.8567275155651
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 100
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -249959
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -15230.690072639
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 352162
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -20.876340776223
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -244226
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -4616.0133136095
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 39394
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -21.017703550735
+                                )
+
+                        )
+
+                )
+
+            [an_2010] => Array
+                (
+                    [an] => 2010
+                    [id] => 437465
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 47210
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 20.58748403576
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1137031
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -3.7811211351656
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 17619
+                            [tendinta] => 
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [tip_bilant] => BILANT SCURT CONFORM ORDINULUI 1752/2005
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -394472
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -81.224789819451
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 146507
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -41.387587564361
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 146507
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -40.011710464897
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 494717
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 33.439696608423
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 88997
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 13.30846404563
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 641224
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.2694904450313
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 1847
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 654459
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -26.091503208925
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 950
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 2
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -50
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -146507
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 41.387587564361
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 476223
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 35.22838920724
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -146507
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 40.011710464897
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 24168
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -38.650555922222
+                                )
+
+                        )
+
+                )
+
+            [an_2011] => Array
+                (
+                    [an] => 2011
+                    [id] => 437466
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 22241
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -52.889218385935
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1478897
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 30.066550516213
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 49841
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 182.88211589761
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => 
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => 
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -633784
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -60.666409783204
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 238271
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 62.634549884988
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 238271
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 62.634549884988
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 473074
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -4.3748243945528
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 92869
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.3507084508467
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 711345
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 10.935492121318
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 752244
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 14.941348503115
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -238271
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -62.634549884988
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 422998
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -11.176486645962
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -238271
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -62.634549884988
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 20787
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -13.989572989076
+                                )
+
+                        )
+
+                )
+
+            [an_2012] => Array
+                (
+                    [an] => 2012
+                    [id] => 437467
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 31131
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 39.971224315453
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1190023
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -19.533070930565
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 78299
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 57.09757027347
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 187774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 187774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -415676
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 34.413617257615
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1039723
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 119.78020351996
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 118368
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 27.456955496452
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 851949
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 19.765936359994
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 655979
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -12.797044575962
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 187774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 178.80690474292
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 619135
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 46.368304341865
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 187774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 178.80690474292
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 8938
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -57.001972386588
+                                )
+
+                        )
+
+                )
+
+            [an_2013] => Array
+                (
+                    [an] => 2013
+                    [id] => 437468
+                    [data] => 2015-02-18
+                    [creante] => Array
+                        (
+                            [valoare] => 25433
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -18.303298962449
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1322925
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 11.168019441641
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -721178
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -73.495222240399
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 305502
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 305502
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1006410
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -3.2040264570467
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 66752
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -43.60638010273
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1311912
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 53.989499371441
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 498944
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -23.939028535974
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 36051
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -305502
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -262.69664596803
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 968415
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 56.41419076615
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -305502
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -262.69664596803
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 41319
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 362.28462743343
+                                )
+
+                        )
+
+                )
+
+            [an_2014] => Array
+                (
+                    [an] => 2014
+                    [id] => 3768317
+                    [data] => 2015-07-08
+                    [creante] => Array
+                        (
+                            [valoare] => 37040
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 45.63755750403
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1513621
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 14.414724946615
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 20306
+                            [tendinta] => 
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -902201
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -25.101015283328
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 188684
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -38.238047541424
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 188617
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -38.259978658078
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 544715
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -45.875438439602
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-02-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 75796
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 13.548657718121
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 733332
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -44.102043429742
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 523270
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.8754970497691
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 12354
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -65.731879836898
+                                )
+
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -188684
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 38.238047541424
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 525930
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -45.691671442512
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -188617
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 38.259978658078
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 18450
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -55.347418862993
+                                )
+
+                        )
+
+                )
+
+            [an_2015] => Array
+                (
+                    [an] => 2015
+                    [id] => 4831160
+                    [data] => 2016-06-15
+                    [creante] => Array
+                        (
+                            [valoare] => 7173
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -80.63444924406
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1659042
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 9.6074909108687
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 38688
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 90.524967989757
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -1147295
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -27.16623014162
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 245093
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 29.896016620381
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 200
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 245093
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 29.942157917897
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 485652
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -10.842917856127
+                                )
+
+                        )
+
+                    [data_actualizare] => 2016-06-15
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 72435
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -4.4342709377804
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 730745
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -0.35277336867885
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 1560
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 438975
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -16.109274370784
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 1897
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -84.644649506233
+                                )
+
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -245093
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -29.896016620381
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 467169
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -11.172779647482
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -245093
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -29.942157917897
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 26574
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 44.032520325203
+                                )
+
+                        )
+
+                )
+
+            [an_2016] => Array
+                (
+                    [an] => 2016
+                    [id] => 5871852
+                    [data] => 2017-08-25
+                    [creante] => Array
+                        (
+                            [valoare] => 31149
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 334.25345043915
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 778613
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -53.068517855485
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 20428
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -47.198097601323
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -296281
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 74.175691517875
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 170378
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -30.484346758169
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 510700
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 170378
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -30.484346758169
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 713724
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 46.962022188728
+                                )
+
+                        )
+
+                    [data_actualizare] => 2017-08-25
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 80922
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 11.716711534479
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 884102
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 20.986390601373
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 1342
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -13.974358974359
+                                )
+
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 402752
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -8.2517227632553
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 3
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -170378
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 30.484346758169
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 671434
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 43.724005659622
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -170378
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 30.484346758169
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 29345
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 10.427485512155
+                                )
+
+                        )
+
+                )
+
+            [an_2017] => Array
+                (
+                    [an] => 2017
+                    [id] => 6325848
+                    [data] => 2018-06-07
+                    [creante] => Array
+                        (
+                            [valoare] => 37056
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 18.963690648175
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 783486
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 0.62585649096534
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 31406
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 53.739964754259
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 1391
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 7053
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -294890
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 0.46948673725281
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 753623
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 5.590256177458
+                                )
+
+                        )
+
+                    [data_actualizare] => 2018-06-07
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 120113
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 48.430587479301
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 746570
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -15.556123614696
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 357085
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -11.33873947243
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 11398
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 1
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -66.666666666667
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 1391
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 100.81641996032
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 740427
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 10.27547011322
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 7053
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 104.13961896489
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 51651
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 76.012949395127
+                                )
+
+                        )
+
+                )
+
+            [an_2018] => Array
+                (
+                    [an] => 2018
+                    [id] => 6990401
+                    [data] => 2019-04-24
+                    [creante] => Array
+                        (
+                            [valoare] => 65387
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 76.454555267703
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 1017769
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 29.902640251389
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 102718
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 227.06489205884
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 53787
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3766.7864845435
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 66666
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 845.21480221182
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => -240969
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 18.285123266303
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1298956
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 72.361512321147
+                                )
+
+                        )
+
+                    [data_actualizare] => 2019-04-24
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 353489
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 194.29703695687
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1232290
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 65.060208687732
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 423311
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 18.546284498089
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 3
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 200
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 53787
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3766.7864845435
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1280315
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 72.915763471618
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 66666
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 845.21480221182
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 185384
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 258.9165747033
+                                )
+
+                        )
+
+                )
+
+            [an_2019] => Array
+                (
+                    [an] => 2019
+                    [id] => 7948902
+                    [data] => 2020-06-18
+                    [creante] => Array
+                        (
+                            [valoare] => 87274
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 33.473014513588
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 699005
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -31.319877103744
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 46712
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -54.524036682957
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 211671
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 293.53561269452
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 230035
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 245.05595055951
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 277430
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 215.13099195332
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1718932
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 32.33181108521
+                                )
+
+                        )
+
+                    [data_actualizare] => 2020-06-18
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 242745
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -31.328839086931
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1488897
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 20.823588603332
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 733690
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 73.32174217065
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 33.333333333333
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 211671
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 293.53561269452
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1670891
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 30.506242604359
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 230035
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 245.05595055951
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 108759
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -41.333124757261
+                                )
+
+                        )
+
+                )
+
+            [an_2020] => Array
+                (
+                    [an] => 2020
+                    [id] => 8735967
+                    [data] => 2021-06-05
+                    [creante] => Array
+                        (
+                            [valoare] => 136092
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 55.936475926393
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 460055
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -34.184304833299
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 244207
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 422.79285836616
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 8326
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -96.066537220498
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 25187
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -89.050796617906
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 285757
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3.0014778502685
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1881510
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 9.4580821114506
+                                )
+
+                        )
+
+                    [data_actualizare] => 2021-06-05
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 667921
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 175.15335022349
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1856323
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 24.677731233255
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 252883
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 330774
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -54.916381578051
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 8326
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -96.066537220498
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1418504
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -15.104935031669
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 25187
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -89.050796617906
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 287622
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 164.45811381127
+                                )
+
+                        )
+
+                )
+
+            [an_2021] => Array
+                (
+                    [an] => 2021
+                    [id] => 10357721
+                    [data] => 2022-04-13
+                    [creante] => Array
+                        (
+                            [valoare] => 621505
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 356.68003997296
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 583593
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 26.852876286531
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 4474
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -98.167947683727
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 299774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3500.4564016334
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 318321
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 1163.8305475047
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 585531
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 104.90521667011
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1918302
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 1.9554506752555
+                                )
+
+                        )
+
+                    [data_actualizare] => 2022-04-13
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 879183
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 31.629788552838
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1599981
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -13.809126967667
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 289941
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -12.34468247202
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 299774
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3500.4564016334
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1836108
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 29.43974779063
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 318321
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 1163.8305475047
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 253204
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -11.966400344897
+                                )
+
+                        )
+
+                )
+
+            [an_2022] => Array
+                (
+                    [an] => 2022
+                    [id] => 12505706
+                    [data] => 2023-05-17
+                    [creante] => Array
+                        (
+                            [valoare] => 309768
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -50.158405805263
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 696009
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 19.262739614766
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 10617
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 137.30442556996
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 407396
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -30.422812797273
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 178135
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 160824
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1783415
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -7.0315831396725
+                                )
+
+                        )
+
+                    [data_actualizare] => 2023-05-17
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 656989
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -25.272781662066
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1944239
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 21.516380507019
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 446416
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 53.967876223094
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 5
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 25
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => -178135
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -159.42309873438
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1728976
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -5.8347330331331
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => -160824
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -150.5225856918
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 336604
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 32.937868280122
+                                )
+
+                        )
+
+                )
+
+            [an_2023] => Array
+                (
+                    [an] => 2023
+                    [id] => 17101240
+                    [data] => 2024-04-06
+                    [creante] => Array
+                        (
+                            [valoare] => 264333
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -14.667428527156
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 633503
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -8.9806309975877
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => -12034
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -213.3465197325
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 82096
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 100275
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 671150
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 64.741430941885
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1021600
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -100
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1825503
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 2.3599666931141
+                                )
+
+                        )
+
+                    [data_actualizare] => 2024-04-06
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 670302
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 2.0263657382391
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1725228
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -11.264613043972
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 634351
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 42.098625497294
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -20
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 82096
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 146.08639514975
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1797879
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3.9851912345805
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 100275
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 162.35076854201
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 346181
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 2.8451830637782
+                                )
+
+                        )
+
+                )
+
+            [an_2024] => Array
+                (
+                    [an] => 2024
+                    [id] => 20827938
+                    [data] => 2025-04-03
+                    [creante] => Array
+                        (
+                            [valoare] => 280011
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 5.931155020372
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 601218
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -5.0962663160238
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 729
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 106.05783613096
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 96758
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 17.859579029429
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 128495
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 28.142607828472
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 604296
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -9.9611115249944
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1600
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -99.843382928739
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1923567
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 5.3718892820225
+                                )
+
+                        )
+
+                    [data_actualizare] => 2025-04-03
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 529219
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -21.047677017225
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1795072
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.048392444361
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 659258
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3.9263751456213
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 17037
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 96758
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 17.859579029429
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1776263
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -1.2023056056609
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 128495
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 28.142607828472
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 180967
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -47.72474514777
+                                )
+
+                        )
+
+                )
+
+            [ultimul_raportat] => Array
+                (
+                    [an] => 2024
+                    [id] => 20827938
+                    [data] => 2025-04-03
+                    [creante] => Array
+                        (
+                            [valoare] => 280011
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 5.931155020372
+                                )
+
+                        )
+
+                    [datorii] => Array
+                        (
+                            [valoare] => 601218
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -5.0962663160238
+                                )
+
+                        )
+
+                    [stocuri] => Array
+                        (
+                            [valoare] => 729
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 106.05783613096
+                                )
+
+                        )
+
+                    [cod_caen] => 5829
+                    [profit_net] => Array
+                        (
+                            [valoare] => 96758
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 17.859579029429
+                                )
+
+                        )
+
+                    [tip_bilant] => 
+                    [profit_brut] => Array
+                        (
+                            [valoare] => 128495
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 28.142607828472
+                                )
+
+                        )
+
+                    [provizioane] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [capital_total] => Array
+                        (
+                            [valoare] => 604296
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -9.9611115249944
+                                )
+
+                        )
+
+                    [pierdere_neta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [capital_social] => Array
+                        (
+                            [valoare] => 1600
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -99.843382928739
+                                )
+
+                        )
+
+                    [pierdere_bruta] => Array
+                        (
+                            [valoare] => 0
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [tip_activitate] => Activitati de editare a altor produse software
+                    [venituri_total] => Array
+                        (
+                            [valoare] => 1923567
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 5.3718892820225
+                                )
+
+                        )
+
+                    [data_actualizare] => 2025-04-03
+                    [patrimoniu_regie] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_circulante] => Array
+                        (
+                            [valoare] => 529219
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -21.047677017225
+                                )
+
+                        )
+
+                    [cheltuieli_totale] => Array
+                        (
+                            [valoare] => 1795072
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 4.048392444361
+                                )
+
+                        )
+
+                    [patrimoniu_public] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [venituri_in_avans] => Array
+                        (
+                            [valoare] => 
+                            [tendinta] => 
+                        )
+
+                    [active_imobilizate] => Array
+                        (
+                            [valoare] => 659258
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 3.9263751456213
+                                )
+
+                        )
+
+                    [cheltuieli_in_avans] => Array
+                        (
+                            [valoare] => 17037
+                            [tendinta] => 
+                        )
+
+                    [numar_mediu_angajati] => Array
+                        (
+                            [valoare] => 4
+                            [tendinta] => Array
+                                (
+                                    [label] => Neschimbată
+                                    [valoare] => 0
+                                )
+
+                        )
+
+                    [profit_pierdere_neta] => Array
+                        (
+                            [valoare] => 96758
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 17.859579029429
+                                )
+
+                        )
+
+                    [cifra_de_afaceri_neta] => Array
+                        (
+                            [valoare] => 1776263
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -1.2023056056609
+                                )
+
+                        )
+
+                    [profit_pierdere_bruta] => Array
+                        (
+                            [valoare] => 128495
+                            [tendinta] => Array
+                                (
+                                    [label] => Creștere
+                                    [valoare] => 28.142607828472
+                                )
+
+                        )
+
+                    [casa_si_conturi_la_banci] => Array
+                        (
+                            [valoare] => 180967
+                            [tendinta] => Array
+                                (
+                                    [label] => Scădere
+                                    [valoare] => -47.72474514777
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

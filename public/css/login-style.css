@@ -1,0 +1,185 @@
+/* General body and HTML styles for the login page */
+body.login-page, html.login-page {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Main container using flexbox for the two-column layout */
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* Left panel with the background image */
+.login-image-panel {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+
+/* Right panel containing the login form */
+.login-form-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+/* TWEAK: New wrapper to help position the footer at the bottom */
+.login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; /* Adjust as needed */
+}
+
+/* The main content area now grows to push the footer down */
+.login-form-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the form */
+}
+
+/* Styling for the CRM logo */
+.login-logo {
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111827;
+}
+
+/* TWEAK: Inputs now have fully rounded corners */
+.form-control {
+    border-radius: 50rem; /* Pill shape */
+    padding: 0.9rem 1rem;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    border-color: #1D51FE;
+    box-shadow: 0 0 0 3px rgba(29, 81, 254, 0.1);
+    background-color: #ffffff;
+}
+
+/* Styling for form labels */
+.form-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+/* TWEAK: Primary button updated with new color and fully rounded corners */
+.btn-primary {
+    background-color: #1D51FE;
+    border-color: #1D51FE;
+    border-radius: 50rem; /* Pill shape */
+    padding: 0.9rem 1rem;
+    font-weight: 600;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #1742d1; /* A slightly darker shade for hover */
+    border-color: #1742d1;
+}
+
+/* TWEAK: Social login buttons now fully rounded */
+.btn-social {
+    border: 1px solid #d1d5db;
+    border-radius: 50rem; /* Pill shape */
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: #374151;
+    background-color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.btn-social:hover {
+    background-color: #f9fafb;
+}
+
+/* "OR" divider styling */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #9ca3af;
+    margin: 1.5rem 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.divider:not(:empty)::before { margin-right: 1em; }
+.divider:not(:empty)::after { margin-left: 1em; }
+
+/* Password visibility toggle icon */
+.password-wrapper { position: relative; }
+.password-wrapper .form-control { padding-right: 3rem; }
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6b7280;
+}
+
+/* TWEAK: New styles for the auth page footer */
+.auth-footer {
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    padding-top: 2rem;
+}
+.auth-footer a {
+    color: #6b7280;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+.auth-footer-notice {
+    text-align: center;
+    color: #6b7280;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+.auth-footer-notice a {
+    color: #1D51FE;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Responsive design */
+@media (max-width: 991.98px) {
+    .login-image-panel { display: none; }
+    .login-form-panel { flex-basis: 100%; }
+    .login-form-wrapper { min-height: auto; padding: 1rem 0; }
+}
