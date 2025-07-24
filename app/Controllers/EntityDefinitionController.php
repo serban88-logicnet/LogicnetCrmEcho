@@ -15,27 +15,15 @@ class EntityDefinitionController {
         $this->relationshipModel = new RelationshipModel($this->pdo);
     }
 
-    /**
-     * List all entity types.
-     * Route: ?route=entitydef&action=list
-     */
     public function list() {
         require_auth();
         $company_id = current_company_id();
-
         $entities = $this->entityDefModel->getAllEntities($company_id);
-
         require_once __DIR__ . '/../Views/partials/header.php';
         require_once __DIR__ . '/../Views/entitydef/list.php';
         require_once __DIR__ . '/../Views/partials/footer.php';
     }
 
-    /**
-     * Add or edit an entity.
-     * Route: 
-     * - ?route=entitydef&action=form (add)
-     * - ?route=entitydef&action=form&id=5 (edit)
-     */
     public function form() {
         require_auth();
         $company_id = current_company_id();
@@ -50,6 +38,11 @@ class EntityDefinitionController {
         }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // ✨ CHANGE: Automatically generate the slug from the entity name
+            if (isset($_POST['name'])) {
+                $_POST['slug'] = slugify($_POST['name']);
+            }
+
             if ($is_edit) {
                 $success = $this->entityDefModel->updateEntity($id, $company_id, $_POST);
                 if ($success) {
@@ -63,6 +56,9 @@ class EntityDefinitionController {
                 $success = $this->entityDefModel->createEntity($company_id, $_POST);
                 if ($success) {
                     $new_id = $this->pdo->lastInsertId();
+                    $fieldStmt = $this->pdo->prepare("INSERT INTO custom_fields (entity_id, company_id, field_name, slug, field_type, is_required, is_primary_label) VALUES (?, ?, ?, ?, ?, ?, ?)");
+                    $fieldStmt->execute([$new_id, $company_id, 'Nume', 'nume', 'text', 1, 1]);
+                    
                     if (!empty($_POST['relationships'])) {
                         $this->relationshipModel->saveEntityRelationships($new_id, $company_id, $_POST['relationships']);
                     }
@@ -82,10 +78,6 @@ class EntityDefinitionController {
         require_once __DIR__ . '/../Views/partials/footer.php';
     }
 
-    /**
-     * Delete an entity.
-     * Route: ?route=entitydef&action=delete&id=5
-     */
     public function delete() {
         require_auth();
         $company_id = current_company_id();
@@ -94,6 +86,13 @@ class EntityDefinitionController {
         if (!$id) {
             set_flash('error', __('entity_id_missing'));
             redirect("index.php?route=entitydef&action=list");
+        }
+        
+        $entity = $this->entityDefModel->getEntityById($id, $company_id);
+        if ($entity && $entity['is_system']) {
+            set_flash('error', 'Entitățile de sistem (ex: Clienți, Facturi) nu pot fi șterse.');
+            redirect("index.php?route=entitydef&action=list");
+            return;
         }
 
         $success = $this->entityDefModel->deleteEntity($id, $company_id);

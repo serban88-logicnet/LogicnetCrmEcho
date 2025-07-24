@@ -19,7 +19,12 @@
         <tbody>
             <?php foreach ($entities as $e): ?>
                 <tr>
-                    <td><?= htmlspecialchars($e['name']) ?></td>
+                    <td>
+                        <?= htmlspecialchars($e['name']) ?>
+                        <?php if ($e['is_system']): ?>
+                            <span class="badge bg-secondary">Sistem</span>
+                        <?php endif; ?>
+                    </td>
                     <td><?= htmlspecialchars($e['slug']) ?></td>
                     <td><?= htmlspecialchars($e['description']) ?></td>
                     <td>
@@ -31,9 +36,15 @@
                             <?= __('edit_fields_button') ?>
                         </a>
 
-                        <a href="index.php?route=entitydef&action=delete&id=<?= $e['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('<?= __('confirm_delete_entity') ?>');">
-                            <?= __('delete_button') ?>
-                        </a>
+                        <?php if ($e['is_system']): ?>
+                            <button class="btn btn-sm btn-danger" disabled title="Entitățile de sistem nu pot fi șterse.">
+                                <?= __('delete_button') ?>
+                            </button>
+                        <?php else: ?>
+                            <a href="index.php?route=entitydef&action=delete&id=<?= $e['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('<?= __('confirm_delete_entity') ?>');">
+                                <?= __('delete_button') ?>
+                            </a>
+                        <?php endif; ?>
                     </td>
 
                 </tr>

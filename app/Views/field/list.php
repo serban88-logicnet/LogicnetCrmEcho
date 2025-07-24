@@ -21,14 +21,24 @@
         <tbody>
             <?php foreach ($fields as $f): ?>
                 <tr>
-                    <td><?= htmlspecialchars($f['field_name']) ?></td>
+                    <td>
+                        <?= htmlspecialchars($f['field_name']) ?>
+                        <?php if ($f['is_system']): ?>
+                            <span class="badge bg-secondary">Sistem</span>
+                        <?php endif; ?>
+                    </td>
                     <td><?= htmlspecialchars($f['slug']) ?></td>
                     <td><?= htmlspecialchars($f['field_type']) ?></td>
                     <td><?= $f['is_required'] ? '✔️' : '—' ?></td>
                     <td><?= $f['is_primary_label'] ? '✔️' : '—' ?></td>
                     <td>
                         <a href="index.php?route=field&type=<?= urlencode($entity['slug']) ?>&action=edit&id=<?= $f['id'] ?>" class="btn btn-sm btn-warning"><?= __('edit_button') ?></a>
-                        <a href="index.php?route=field&type=<?= urlencode($entity['slug']) ?>&action=delete&id=<?= $f['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('<?= __('confirm_delete_field') ?>');"><?= __('delete_button') ?></a>
+                        
+                        <?php if ($f['is_system']): ?>
+                            <button class="btn btn-sm btn-danger" disabled title="Câmpurile de sistem nu pot fi șterse."><?= __('delete_button') ?></button>
+                        <?php else: ?>
+                            <a href="index.php?route=field&type=<?= urlencode($entity['slug']) ?>&action=delete&id=<?= $f['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('<?= __('confirm_delete_field') ?>');"><?= __('delete_button') ?></a>
+                        <?php endif; ?>
                     </td>
                 </tr>
             <?php endforeach; ?>

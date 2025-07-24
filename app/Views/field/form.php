@@ -10,21 +10,16 @@
         <input type="text" name="field_name" class="form-control" required value="<?= htmlspecialchars($field['field_name'] ?? '') ?>">
     </div>
 
-    <div class="mb-3">
-        <label class="form-label"><?= __('field_slug') ?> *</label>
-        <input type="text" name="slug" class="form-control" required value="<?= htmlspecialchars($field['slug'] ?? '') ?>">
-    </div>
+    <!-- ✨ CHANGE: The slug input field has been removed. It's now generated automatically. -->
 
     <div class="mb-3">
         <label class="form-label"><?= __('field_type') ?> *</label>
         <select name="field_type" class="form-control" required>
             <?php
-            // Match available field types to those used in the entity form
             $types = [
                 'text' => __('field_type_text'),
                 'number' => __('field_type_number'),
                 'date' => __('field_type_date'),
-                'relation' => __('field_type_relation')
             ];
             foreach ($types as $key => $label): ?>
                 <option value="<?= $key ?>" <?= (isset($field['field_type']) && $field['field_type'] === $key) ? 'selected' : '' ?>>

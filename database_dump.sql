@@ -33,6 +33,16 @@ CREATE TABLE `companies` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `companies`
+--
+
+LOCK TABLES `companies` WRITE;
+/*!40000 ALTER TABLE `companies` DISABLE KEYS */;
+INSERT INTO `companies` VALUES (1,'Compania 3432422','RO3432422','2025-07-23 12:56:31');
+/*!40000 ALTER TABLE `companies` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `custom_field_values`
 --
 
@@ -52,6 +62,16 @@ CREATE TABLE `custom_field_values` (
   CONSTRAINT `custom_field_values_ibfk_2` FOREIGN KEY (`custom_field_id`) REFERENCES `custom_fields` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `custom_field_values`
+--
+
+LOCK TABLES `custom_field_values` WRITE;
+/*!40000 ALTER TABLE `custom_field_values` DISABLE KEYS */;
+INSERT INTO `custom_field_values` VALUES (1,1,1,'TESTCLIENT1','2025-07-23 12:57:08'),(2,1,2,'RO3423224','2025-07-23 12:57:08'),(3,1,3,'test1@test.ro','2025-07-23 12:57:08'),(4,2,4,'TESTFACTURA1','2025-07-23 12:57:36'),(5,2,5,'2002-02-02','2025-07-23 12:57:36'),(6,2,6,'750','2025-07-23 12:57:36'),(7,3,7,'TEST PRODUS 1','2025-07-23 13:15:17'),(8,3,8,'100','2025-07-23 13:15:17'),(9,4,7,'TEST PRODUS 2','2025-07-23 13:15:36'),(10,4,8,'150','2025-07-23 13:15:36'),(11,5,4,'TEST FACTURA 2','2025-07-23 14:36:38'),(12,5,5,'2025-07-10','2025-07-23 14:36:38'),(13,5,6,'1000','2025-07-23 14:36:38');
+/*!40000 ALTER TABLE `custom_field_values` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `custom_fields`
@@ -78,6 +98,16 @@ CREATE TABLE `custom_fields` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `custom_fields`
+--
+
+LOCK TABLES `custom_fields` WRITE;
+/*!40000 ALTER TABLE `custom_fields` DISABLE KEYS */;
+INSERT INTO `custom_fields` VALUES (1,1,1,'Nume Client','text','nume_client',1,'2025-07-23 12:56:31',1,1),(2,1,1,'CUI','text','cui',1,'2025-07-23 12:56:31',0,1),(3,1,1,'Email','text','email',0,'2025-07-23 12:56:31',0,1),(4,1,2,'Număr Factură','text','numar_factura',1,'2025-07-23 12:56:31',1,1),(5,1,2,'Data Emiterii','date','data_emiterii',1,'2025-07-23 12:56:31',0,1),(6,1,2,'Valoare Totală','number','valoare_totala',1,'2025-07-23 12:56:31',0,1),(7,1,3,'Nume Produs','text','nume_produs',1,'2025-07-23 12:56:31',1,1),(8,1,3,'Preț Unitar','number','pret_unitar',1,'2025-07-23 12:56:31',0,1);
+/*!40000 ALTER TABLE `custom_fields` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `entities`
 --
 
@@ -98,6 +128,16 @@ CREATE TABLE `entities` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `entities`
+--
+
+LOCK TABLES `entities` WRITE;
+/*!40000 ALTER TABLE `entities` DISABLE KEYS */;
+INSERT INTO `entities` VALUES (1,1,'Clienți','Lista de clienți ai companiei',1,'clienti',NULL,'2025-07-23 12:56:31'),(2,1,'Facturi','Lista de facturi emise',1,'facturi',NULL,'2025-07-23 12:56:31'),(3,1,'Produse','Catalogul de produse sau servicii',1,'produse',NULL,'2025-07-23 12:56:31');
+/*!40000 ALTER TABLE `entities` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `login_attempts`
 --
 
@@ -112,6 +152,15 @@ CREATE TABLE `login_attempts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `login_attempts`
+--
+
+LOCK TABLES `login_attempts` WRITE;
+/*!40000 ALTER TABLE `login_attempts` DISABLE KEYS */;
+/*!40000 ALTER TABLE `login_attempts` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `records`
@@ -133,6 +182,16 @@ CREATE TABLE `records` (
   CONSTRAINT `records_ibfk_1` FOREIGN KEY (`entity_id`) REFERENCES `entities` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `records`
+--
+
+LOCK TABLES `records` WRITE;
+/*!40000 ALTER TABLE `records` DISABLE KEYS */;
+INSERT INTO `records` VALUES (1,1,1,'2025-07-23 12:57:08','2025-07-23 12:57:08',0,NULL),(2,1,2,'2025-07-23 12:57:36','2025-07-23 12:57:36',0,NULL),(3,1,3,'2025-07-23 13:15:17','2025-07-23 13:15:17',0,NULL),(4,1,3,'2025-07-23 13:15:36','2025-07-23 13:15:36',0,NULL),(5,1,2,'2025-07-23 14:36:38','2025-07-23 14:36:38',0,NULL);
+/*!40000 ALTER TABLE `records` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `relationship_entities`
@@ -160,6 +219,16 @@ CREATE TABLE `relationship_entities` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `relationship_entities`
+--
+
+LOCK TABLES `relationship_entities` WRITE;
+/*!40000 ALTER TABLE `relationship_entities` DISABLE KEYS */;
+INSERT INTO `relationship_entities` VALUES (1,1,1,2,'one_many','Client','Facturi'),(2,1,2,3,'many_many','Factură','Produse');
+/*!40000 ALTER TABLE `relationship_entities` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `relationship_fields`
 --
 
@@ -182,6 +251,16 @@ CREATE TABLE `relationship_fields` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `relationship_fields`
+--
+
+LOCK TABLES `relationship_fields` WRITE;
+/*!40000 ALTER TABLE `relationship_fields` DISABLE KEYS */;
+INSERT INTO `relationship_fields` VALUES (1,2,'cantitate','Cantitate','number',1,0,1);
+/*!40000 ALTER TABLE `relationship_fields` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `relationship_meta`
 --
 
@@ -200,6 +279,16 @@ CREATE TABLE `relationship_meta` (
   CONSTRAINT `relationship_meta_ibfk_1` FOREIGN KEY (`relationship_record_id`) REFERENCES `relationship_records` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `relationship_meta`
+--
+
+LOCK TABLES `relationship_meta` WRITE;
+/*!40000 ALTER TABLE `relationship_meta` DISABLE KEYS */;
+INSERT INTO `relationship_meta` VALUES (38,19,1,'3'),(39,20,1,'3'),(40,22,1,'10');
+/*!40000 ALTER TABLE `relationship_meta` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `relationship_records`
@@ -224,6 +313,16 @@ CREATE TABLE `relationship_records` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
+-- Dumping data for table `relationship_records`
+--
+
+LOCK TABLES `relationship_records` WRITE;
+/*!40000 ALTER TABLE `relationship_records` DISABLE KEYS */;
+INSERT INTO `relationship_records` VALUES (18,1,1,2,1,'2025-07-23 17:13:41'),(19,1,2,3,2,'2025-07-23 17:18:32'),(20,1,2,4,2,'2025-07-23 17:18:32'),(21,1,1,5,1,'2025-07-23 17:36:38'),(22,1,5,3,2,'2025-07-23 17:36:38');
+/*!40000 ALTER TABLE `relationship_records` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `roles`
 --
 
@@ -240,6 +339,16 @@ CREATE TABLE `roles` (
   CONSTRAINT `roles_ibfk_1` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `roles`
+--
+
+LOCK TABLES `roles` WRITE;
+/*!40000 ALTER TABLE `roles` DISABLE KEYS */;
+INSERT INTO `roles` VALUES (1,1,'Admin','2025-07-23 12:56:31');
+/*!40000 ALTER TABLE `roles` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `users`
@@ -263,6 +372,16 @@ CREATE TABLE `users` (
   CONSTRAINT `users_ibfk_2` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` VALUES (1,1,1,'andreica.serban@gmail.com','$2y$10$8nxa5gw3dBvA8eMU8jof/.aghczCfB6HWvEqbksSNHcZZNCefjl8e','2025-07-23 12:56:31');
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -273,4 +392,4 @@ CREATE TABLE `users` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-24 10:00:48
+-- Dump completed on 2025-07-24 10:00:35
