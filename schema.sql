@@ -50,7 +50,7 @@ CREATE TABLE `custom_field_values` (
   KEY `custom_field_id` (`custom_field_id`),
   CONSTRAINT `custom_field_values_ibfk_1` FOREIGN KEY (`record_id`) REFERENCES `records` (`id`) ON DELETE CASCADE,
   CONSTRAINT `custom_field_values_ibfk_2` FOREIGN KEY (`custom_field_id`) REFERENCES `custom_fields` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -70,11 +70,12 @@ CREATE TABLE `custom_fields` (
   `is_required` tinyint(1) DEFAULT 0,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `is_primary_label` tinyint(1) DEFAULT 0,
+  `show_on_list` tinyint(1) NOT NULL DEFAULT 0 COMMENT 'Whether to show this field as a column in the list view',
   `is_system` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `entity_id` (`entity_id`),
   CONSTRAINT `custom_fields_ibfk_1` FOREIGN KEY (`entity_id`) REFERENCES `entities` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -95,6 +96,34 @@ CREATE TABLE `entities` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `entity_layouts`
+--
+
+DROP TABLE IF EXISTS `entity_layouts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `entity_layouts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company_id` int(11) NOT NULL COMMENT 'Links to the company that owns this layout.',
+  `entity_id` int(11) NOT NULL COMMENT 'Links to the entity this layout applies to.',
+  `custom_field_id` int(11) NOT NULL COMMENT 'Links to the specific field being positioned.',
+  `group_name` varchar(100) DEFAULT 'Details' COMMENT 'The name of the visual group/section for this field.',
+  `row_order` int(11) NOT NULL DEFAULT 0 COMMENT 'The vertical sort order of the field/row.',
+  `col_order` int(11) NOT NULL DEFAULT 0 COMMENT 'The horizontal sort order of the field within a row.',
+  `col_span` int(11) NOT NULL DEFAULT 12 COMMENT 'The width of the field, based on a 12-column grid (e.g., 12=full width, 6=half width).',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_layout_field` (`company_id`,`entity_id`,`custom_field_id`),
+  KEY `fk_layout_to_entity` (`entity_id`),
+  KEY `fk_layout_to_custom_field` (`custom_field_id`),
+  CONSTRAINT `fk_layout_to_company` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_layout_to_custom_field` FOREIGN KEY (`custom_field_id`) REFERENCES `custom_fields` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_layout_to_entity` FOREIGN KEY (`entity_id`) REFERENCES `entities` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=179 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -273,4 +302,4 @@ CREATE TABLE `users` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-24 10:00:48
+-- Dump completed on 2025-07-24 16:08:55

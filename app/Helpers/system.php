@@ -40,7 +40,7 @@ function require_auth() {
 }
 
 /**
- * ✨ NEW: A helper function to create a URL-friendly slug from a string.
+ * A helper function to create a URL-friendly slug from a string.
  * It handles special characters and Romanian diacritics.
  */
 function slugify($text) {

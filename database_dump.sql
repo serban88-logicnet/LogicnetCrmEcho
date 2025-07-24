@@ -60,7 +60,7 @@ CREATE TABLE `custom_field_values` (
   KEY `custom_field_id` (`custom_field_id`),
   CONSTRAINT `custom_field_values_ibfk_1` FOREIGN KEY (`record_id`) REFERENCES `records` (`id`) ON DELETE CASCADE,
   CONSTRAINT `custom_field_values_ibfk_2` FOREIGN KEY (`custom_field_id`) REFERENCES `custom_fields` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -69,7 +69,7 @@ CREATE TABLE `custom_field_values` (
 
 LOCK TABLES `custom_field_values` WRITE;
 /*!40000 ALTER TABLE `custom_field_values` DISABLE KEYS */;
-INSERT INTO `custom_field_values` VALUES (1,1,1,'TESTCLIENT1','2025-07-23 12:57:08'),(2,1,2,'RO3423224','2025-07-23 12:57:08'),(3,1,3,'test1@test.ro','2025-07-23 12:57:08'),(4,2,4,'TESTFACTURA1','2025-07-23 12:57:36'),(5,2,5,'2002-02-02','2025-07-23 12:57:36'),(6,2,6,'750','2025-07-23 12:57:36'),(7,3,7,'TEST PRODUS 1','2025-07-23 13:15:17'),(8,3,8,'100','2025-07-23 13:15:17'),(9,4,7,'TEST PRODUS 2','2025-07-23 13:15:36'),(10,4,8,'150','2025-07-23 13:15:36'),(11,5,4,'TEST FACTURA 2','2025-07-23 14:36:38'),(12,5,5,'2025-07-10','2025-07-23 14:36:38'),(13,5,6,'1000','2025-07-23 14:36:38');
+INSERT INTO `custom_field_values` VALUES (1,1,1,'TESTCLIENT1','2025-07-23 12:57:08'),(2,1,2,'RO3423224','2025-07-23 12:57:08'),(3,1,3,'test1@test.ro','2025-07-23 12:57:08'),(4,2,4,'TESTFACTURA1','2025-07-23 12:57:36'),(5,2,5,'2002-02-02','2025-07-23 12:57:36'),(6,2,6,'750','2025-07-23 12:57:36'),(7,3,7,'TEST PRODUS 1','2025-07-23 13:15:17'),(8,3,8,'100','2025-07-23 13:15:17'),(9,4,7,'TEST PRODUS 2','2025-07-23 13:15:36'),(10,4,8,'150','2025-07-23 13:15:36'),(11,5,4,'TEST FACTURA 2','2025-07-23 14:36:38'),(12,5,5,'2025-07-10','2025-07-23 14:36:38'),(13,5,6,'1000','2025-07-23 14:36:38'),(14,1,10,'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis non nisl eget sagittis. Pellentesque euismod leo at sem dapibus, vel venenatis lectus fringilla. Curabitur eu facilisis quam, eget tempor libero. Phasellus ut ipsum lacus. Nullam eu egestas mauris. Praesent sodales elit ut felis tempor luctus. Aenean at nunc nisi.\r\n\r\nVestibulum aliquam mattis risus nec sollicitudin. Nunc imperdiet nisl at odio scelerisque, eget tempus est porta. Praesent quam nulla, congue at velit id, cursus sodales erat. Curabitur egestas pellentesque lacus, et volutpat mi ullamcorper id. Nunc lobortis ante a odio tincidunt pulvinar. Mauris vel accumsan nibh, a tincidunt lorem. Sed vehicula, justo vel condimentum accumsan, justo tellus commodo risus, pulvinar pellentesque nisl nisi quis elit. Donec vestibulum viverra diam nec placerat.','2025-07-24 10:44:54'),(15,1,11,'','2025-07-24 10:44:54'),(16,1,9,'','2025-07-24 10:44:54'),(17,1,12,'1 milion de bani','2025-07-24 11:29:09');
 /*!40000 ALTER TABLE `custom_field_values` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -90,11 +90,12 @@ CREATE TABLE `custom_fields` (
   `is_required` tinyint(1) DEFAULT 0,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `is_primary_label` tinyint(1) DEFAULT 0,
+  `show_on_list` tinyint(1) NOT NULL DEFAULT 0 COMMENT 'Whether to show this field as a column in the list view',
   `is_system` tinyint(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `entity_id` (`entity_id`),
   CONSTRAINT `custom_fields_ibfk_1` FOREIGN KEY (`entity_id`) REFERENCES `entities` (`id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -103,7 +104,7 @@ CREATE TABLE `custom_fields` (
 
 LOCK TABLES `custom_fields` WRITE;
 /*!40000 ALTER TABLE `custom_fields` DISABLE KEYS */;
-INSERT INTO `custom_fields` VALUES (1,1,1,'Nume Client','text','nume_client',1,'2025-07-23 12:56:31',1,1),(2,1,1,'CUI','text','cui',1,'2025-07-23 12:56:31',0,1),(3,1,1,'Email','text','email',0,'2025-07-23 12:56:31',0,1),(4,1,2,'Număr Factură','text','numar_factura',1,'2025-07-23 12:56:31',1,1),(5,1,2,'Data Emiterii','date','data_emiterii',1,'2025-07-23 12:56:31',0,1),(6,1,2,'Valoare Totală','number','valoare_totala',1,'2025-07-23 12:56:31',0,1),(7,1,3,'Nume Produs','text','nume_produs',1,'2025-07-23 12:56:31',1,1),(8,1,3,'Preț Unitar','number','pret_unitar',1,'2025-07-23 12:56:31',0,1);
+INSERT INTO `custom_fields` VALUES (1,1,1,'Nume Client','text','nume_client',1,'2025-07-23 12:56:31',0,1,1),(2,1,1,'CUI','text','cui',1,'2025-07-23 12:56:31',0,1,1),(3,1,1,'Email','text','email',0,'2025-07-23 12:56:31',0,1,1),(4,1,2,'Număr Factură','text','numar_factura',1,'2025-07-23 12:56:31',1,0,1),(5,1,2,'Data Emiterii','date','data_emiterii',1,'2025-07-23 12:56:31',0,0,1),(6,1,2,'Valoare Totală','number','valoare_totala',1,'2025-07-23 12:56:31',0,0,1),(7,1,3,'Nume Produs','text','nume_produs',1,'2025-07-23 12:56:31',1,0,1),(8,1,3,'Preț Unitar','number','pret_unitar',1,'2025-07-23 12:56:31',0,0,1),(9,1,1,'Companie','text','companie',0,'2025-07-24 10:07:49',0,1,0),(10,1,1,'Descriere Test','textarea','descriere',0,'2025-07-24 10:22:23',0,0,0),(11,1,1,'Telefon','text','telefon',0,'2025-07-24 10:27:06',0,0,0),(12,1,1,'Salariu','text','salariu',0,'2025-07-24 11:28:40',0,0,0);
 /*!40000 ALTER TABLE `custom_fields` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -135,6 +136,44 @@ LOCK TABLES `entities` WRITE;
 /*!40000 ALTER TABLE `entities` DISABLE KEYS */;
 INSERT INTO `entities` VALUES (1,1,'Clienți','Lista de clienți ai companiei',1,'clienti',NULL,'2025-07-23 12:56:31'),(2,1,'Facturi','Lista de facturi emise',1,'facturi',NULL,'2025-07-23 12:56:31'),(3,1,'Produse','Catalogul de produse sau servicii',1,'produse',NULL,'2025-07-23 12:56:31');
 /*!40000 ALTER TABLE `entities` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `entity_layouts`
+--
+
+DROP TABLE IF EXISTS `entity_layouts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8mb4 */;
+CREATE TABLE `entity_layouts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company_id` int(11) NOT NULL COMMENT 'Links to the company that owns this layout.',
+  `entity_id` int(11) NOT NULL COMMENT 'Links to the entity this layout applies to.',
+  `custom_field_id` int(11) NOT NULL COMMENT 'Links to the specific field being positioned.',
+  `group_name` varchar(100) DEFAULT 'Details' COMMENT 'The name of the visual group/section for this field.',
+  `row_order` int(11) NOT NULL DEFAULT 0 COMMENT 'The vertical sort order of the field/row.',
+  `col_order` int(11) NOT NULL DEFAULT 0 COMMENT 'The horizontal sort order of the field within a row.',
+  `col_span` int(11) NOT NULL DEFAULT 12 COMMENT 'The width of the field, based on a 12-column grid (e.g., 12=full width, 6=half width).',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uniq_layout_field` (`company_id`,`entity_id`,`custom_field_id`),
+  KEY `fk_layout_to_entity` (`entity_id`),
+  KEY `fk_layout_to_custom_field` (`custom_field_id`),
+  CONSTRAINT `fk_layout_to_company` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_layout_to_custom_field` FOREIGN KEY (`custom_field_id`) REFERENCES `custom_fields` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_layout_to_entity` FOREIGN KEY (`entity_id`) REFERENCES `entities` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=179 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `entity_layouts`
+--
+
+LOCK TABLES `entity_layouts` WRITE;
+/*!40000 ALTER TABLE `entity_layouts` DISABLE KEYS */;
+INSERT INTO `entity_layouts` VALUES (172,1,1,1,'Details',0,0,3,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(173,1,1,2,'Details',0,1,3,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(174,1,1,12,'Details',0,2,3,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(175,1,1,10,'Descriere',0,0,1,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(176,1,1,3,'Test',0,0,2,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(177,1,1,11,'Test',0,1,2,'2025-07-24 11:29:54','2025-07-24 11:29:54'),(178,1,1,9,'Info Companie',0,0,1,'2025-07-24 11:29:54','2025-07-24 11:29:54');
+/*!40000 ALTER TABLE `entity_layouts` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -318,7 +357,7 @@ CREATE TABLE `relationship_records` (
 
 LOCK TABLES `relationship_records` WRITE;
 /*!40000 ALTER TABLE `relationship_records` DISABLE KEYS */;
-INSERT INTO `relationship_records` VALUES (18,1,1,2,1,'2025-07-23 17:13:41'),(19,1,2,3,2,'2025-07-23 17:18:32'),(20,1,2,4,2,'2025-07-23 17:18:32'),(21,1,1,5,1,'2025-07-23 17:36:38'),(22,1,5,3,2,'2025-07-23 17:36:38');
+INSERT INTO `relationship_records` VALUES (19,1,2,3,2,'2025-07-23 17:18:32'),(20,1,2,4,2,'2025-07-23 17:18:32'),(22,1,5,3,2,'2025-07-23 17:36:38');
 /*!40000 ALTER TABLE `relationship_records` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -392,4 +431,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-07-24 10:00:35
+-- Dump completed on 2025-07-24 16:09:01
