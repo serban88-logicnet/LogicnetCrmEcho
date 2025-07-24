@@ -261,4 +261,68 @@ class EntityModel {
         $stmt->execute(['id' => $entity_id, 'company_id' => $company_id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    /**
+    * Fetches all field values for a specific record as a simple array.
+    * This is a new, efficient helper method for the layout system.
+    */
+    public function getAllFieldValuesForRecord($record_id, $company_id) {
+        if (!$record_id) {
+            return [];
+        }
+        $stmt = $this->pdo->prepare("
+            SELECT cfv.custom_field_id, cfv.value 
+            FROM custom_field_values cfv
+            JOIN custom_fields cf ON cfv.custom_field_id = cf.id
+            WHERE cfv.record_id = :record_id AND cf.company_id = :company_id
+        ");
+        $stmt->execute([':record_id' => $record_id, ':company_id' => $company_id]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+        /**
+     * Fetches only the fields marked to be shown on the list view.
+     */
+    public function getFieldsForListView($entity_id, $company_id) {
+        $stmt = $this->pdo->prepare("
+            SELECT id, field_name 
+            FROM custom_fields 
+            WHERE entity_id = :entity_id AND company_id = :company_id AND show_on_list = 1
+            ORDER BY id ASC
+        ");
+        $stmt->execute([':entity_id' => $entity_id, ':company_id' => $company_id]);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    /**
+     * Fetches all records for an entity and pivots their field values into a useful map.
+     */
+    public function getRecordsWithValues($entity_id, $company_id, $list_fields) {
+        $records = $this->getRecordsByEntityId($entity_id, $company_id);
+        if (empty($records) || empty($list_fields)) {
+            return $records;
+        }
+
+        $record_ids = array_column($records, 'id');
+        $placeholders = implode(',', array_fill(0, count($record_ids), '?'));
+
+        $stmt = $this->pdo->prepare("
+            SELECT record_id, custom_field_id, value 
+            FROM custom_field_values 
+            WHERE record_id IN ($placeholders)
+        ");
+        $stmt->execute($record_ids);
+        $all_values = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+        $values_map = [];
+        foreach ($all_values as $val) {
+            $values_map[$val['record_id']][$val['custom_field_id']] = $val['value'];
+        }
+
+        foreach ($records as &$record) {
+            $record['field_values'] = $values_map[$record['id']] ?? [];
+        }
+
+        return $records;
+    }
 }

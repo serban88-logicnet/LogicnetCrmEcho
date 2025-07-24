@@ -36,6 +36,11 @@
                             <?= __('edit_fields_button') ?>
                         </a>
 
+                         
+                        <a href="index.php?route=entity-layout&action=editor&entity_id=<?= $e['id'] ?>" class="btn btn-sm btn-info text-white">
+                            Edit Layout
+                        </a>
+
                         <?php if ($e['is_system']): ?>
                             <button class="btn btn-sm btn-danger" disabled title="Entitățile de sistem nu pot fi șterse.">
                                 <?= __('delete_button') ?>

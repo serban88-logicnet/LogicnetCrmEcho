@@ -1,46 +1,40 @@
-<h1><?php echo sprintf(__('list_title'), htmlspecialchars($entity['name'])); ?></h1>
+<?php
+// This view now dynamically builds its table columns based on the new $list_fields variable.
+?>
 
-<a href="index.php?route=entity&type=<?php echo htmlspecialchars($entity['slug']); ?>&action=form" class="btn btn-primary mb-3">
-  <?php echo sprintf(__('add_new_button'), htmlspecialchars($entity['name'])); ?>
+<h1><?= htmlspecialchars($entity['name']) ?></h1>
+
+<a href="index.php?route=entity&type=<?= urlencode($entity['slug']) ?>&action=form" class="btn btn-primary mb-3">
+    <?= sprintf(__('add_new'), htmlspecialchars($entity['name'])) ?>
 </a>
 
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th><?php echo __('record_id'); ?></th>
-            <?php
-            if (!empty($records)) {
-                $headers = [];
-                foreach ($records[0]['fields'] as $field) {
-                    $headers[$field['slug']] = $field['field_name'];
-                }
-                foreach ($headers as $slug => $fieldName) {
-                    echo "<th>" . htmlspecialchars($fieldName) . "</th>";
-                }
-            }
-            ?>
-            <th><?php echo __('actions'); ?></th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php foreach ($records as $record): ?>
-        <tr>
-            <td><?php echo htmlspecialchars($record['id']); ?></td>
-            <?php
-            $fieldValues = [];
-            foreach ($record['fields'] as $field) {
-                $fieldValues[$field['slug']] = $field['value'];
-            }
-            foreach ($headers as $slug => $fieldName) {
-                $value = isset($fieldValues[$slug]) ? $fieldValues[$slug] : '';
-                echo "<td>" . htmlspecialchars($value) . "</td>";
-            }
-            ?>
-            <td>
-                <a href="index.php?route=entity&type=<?php echo htmlspecialchars($entity['slug']); ?>&action=view&id=<?php echo htmlspecialchars($record['id']); ?>" class="btn btn-info btn-sm"><?php echo __('view_button'); ?></a>
-                <a href="index.php?route=entity&type=<?php echo htmlspecialchars($entity['slug']); ?>&action=form&id=<?php echo htmlspecialchars($record['id']); ?>" class="btn btn-warning btn-sm"><?php echo __('edit_button'); ?></a>
-            </td>
-        </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
+<?php if (empty($records)): ?>
+    <p>No records found for <?= htmlspecialchars($entity['name']) ?>.</p>
+<?php else: ?>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <?php foreach ($list_fields as $field): ?>
+                    <th><?= htmlspecialchars($field['field_name']) ?></th>
+                <?php endforeach; ?>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($records as $record): ?>
+                <tr>
+                    <?php foreach ($list_fields as $field): ?>
+                        <td>
+                            <?= htmlspecialchars($record['field_values'][$field['id']] ?? '') ?>
+                        </td>
+                    <?php endforeach; ?>
+                    <td>
+                        <a href="index.php?route=entity&type=<?= urlencode($entity['slug']) ?>&action=view&id=<?= $record['id'] ?>" class="btn btn-sm btn-info text-white">View</a>
+                        <a href="index.php?route=entity&type=<?= urlencode($entity['slug']) ?>&action=form&id=<?= $record['id'] ?>" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="index.php?route=entity&type=<?= urlencode($entity['slug']) ?>&action=delete&id=<?= $record['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this record?');">Delete</a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+<?php endif; ?>

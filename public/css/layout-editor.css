@@ -1,0 +1,147 @@
+/*
+ * Styles for the SortableJS Row/Column Layout Editor (Compressed)
+ */
+
+/* Main Layout */
+.layout-editor-container {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.layout-editor-main {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.5rem; /* Reduced gap */
+    align-items: flex-start;
+}
+
+/* Sidebar */
+.fields-sidebar {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1rem; /* Reduced padding */
+    position: sticky;
+    top: 20px;
+}
+.fields-sidebar h2 {
+    font-size: 1.15rem; /* Reduced font size */
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Trash Area */
+#trash {
+    border: 2px dashed #dc3545;
+    background-color: #f8d7da;
+    color: #721c24;
+    transition: background-color 0.3s, border-color 0.3s;
+    padding: 1.5rem; /* Reduced padding */
+    text-align: center;
+    border-radius: 0.375rem;
+    margin-top: 1rem;
+    min-height: 80px; /* Reduced height */
+}
+#trash.sortable-ghost-container {
+    background-color: #dc3545;
+    color: white;
+    border-color: #b21f2d;
+}
+
+/* Row & Column System */
+.row-container {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    margin-bottom: 1.5rem; /* Reduced margin */
+}
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem; /* Reduced padding */
+    border-bottom: 1px solid #e9ecef;
+}
+.row-controls { display: flex; align-items: center; gap: 0.5rem; }
+.delete-row-btn {
+    background: none; border: none; font-size: 1.25rem; /* Reduced size */
+    color: #6c757d; cursor: pointer; transition: color 0.2s;
+}
+.delete-row-btn:hover { color: #dc3545; }
+
+.column-layout {
+    display: grid;
+    gap: 0.75rem; /* Reduced gap */
+    padding: 0.75rem; /* Reduced padding */
+    background-color: #f8f9fa;
+}
+.column-layout[data-layout="1"] { grid-template-columns: 1fr; }
+.column-layout[data-layout="2"] { grid-template-columns: 1fr 1fr; }
+.column-layout[data-layout="3"] { grid-template-columns: 1fr 1fr 1fr; }
+.column-layout[data-layout="4"] { grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+.column-dropzone {
+    background-color: #e9ecef;
+    padding: 0.75rem; /* Reduced padding */
+    min-height: 100px; /* Reduced height */
+    border-radius: 0.375rem;
+    border: 2px dashed transparent;
+    transition: border-color 0.2s;
+}
+.column-dropzone.sortable-ghost-container {
+    border-color: #0d6efd;
+}
+
+/* Field Items */
+.field-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 0.75rem; /* Reduced padding */
+    margin-bottom: 0.75rem; /* Reduced margin */
+    cursor: grab;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    /* ✅ FIX: Use flexbox for layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.field-item:last-child { margin-bottom: 0; }
+.field-item.sortable-ghost {
+    background: #e9f7ff;
+    opacity: 0.7;
+}
+.field-item-details strong { font-size: 1rem; }
+.field-item-details small { color: #6c757d; }
+
+/* Add Row Button */
+#add-row-btn {
+    width: 100%;
+    padding: 0.75rem; /* Reduced padding */
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+/* Styles for Row Reordering Handle */
+.row-header {
+    position: relative;
+}
+
+.row-drag-handle {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: grab;
+    color: #adb5bd;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.row-drag-handle:active {
+    cursor: grabbing;
+}

@@ -20,6 +20,9 @@
     ?>
         <link rel="stylesheet" href="css/login-style.css">
     <?php endif; ?>
+
+
+    <link rel="stylesheet" href="css/layout-editor.css">
 </head>
 <body class="<?php echo $route === 'login' ? 'login-page' : ''; ?>">
 

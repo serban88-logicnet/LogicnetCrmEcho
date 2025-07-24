@@ -70,6 +70,19 @@ switch ($route) {
         $entity->$action(); // list(), form(), view(), delete()
         break;
 
+    case 'entity-layout':
+        require_once __DIR__ . '/../app/Controllers/EntityLayoutController.php';
+        $c = new EntityLayoutController();
+        $action = $_GET['action'] ?? 'editor';
+        // Check if the action method exists in the controller
+        if (method_exists($c, $action)) {
+            $c->$action();
+        } else {
+            // Handle error for unknown action
+            echo "Unknown action.";
+        }
+        break;
+
     case 'field':
         require_once __DIR__ . '/../app/Controllers/FieldController.php';
         $field = new FieldController();
